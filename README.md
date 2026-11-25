@@ -1,6 +1,6 @@
 # ZPDF Releases
 
-Official desktop builds and installers for **ZPDF** — offline PDF reader, editor, redactor, OCR, and translator for **Windows**, **macOS**, and **Linux**.
+Official desktop builds and installers for **ZPDF** — a **100% offline, zero-telemetry PDF studio** for **Windows**, **macOS**, and **Linux**. Read, edit, permanently redact, OCR, translate books & manga, run press-room CMYK preflight, measure CAD blueprints, and chat with PDFs using your own local AI — with no cloud uploads and no subscriptions.
 
 ## Latest Release Downloads
 
@@ -14,6 +14,16 @@ Download the latest version from the [**Latest Release**](https://github.com/Tem
 
 Every download includes a matching `.sha256` checksum file on the release page.
 
+## Why ZPDF?
+
+- **100% Local & Private:** Zero telemetry, no accounts, no cloud uploads. Includes **true permanent redaction** (content-stream removal + post-write verification), AES-256 & certificate encryption, Digital ID signing (`pyHanko`), and tamper-evident audit logs.
+- **Fast Power-User Reader & Editor:** Streams 200 MB+ files smoothly, with 4 reading themes (Light, Smart Night, Warm Sepia, E-Ink), split view + interactive diff viewer, Workspace Sessions, direct text editing with paragraph reflow, interactive forms with calculations, and annotations.
+- **Offline Book, Document & Manga Translation:** Powered by commercial-safe Apache-2.0 MADLAD-400, OPUS-MT, or your local LLM — featuring vertical CJK (*tategaki*) with furigana stripping, shape-aware **Manga / Comic Speech-Bubble Mode v2**, `bilingual-pages` book mode, and a live bilingual reading pane.
+- **Local AI Document Assistant:** *Ask this PDF* with clickable `[p. N]` citations, Document/Chapter Summarizer, and structured JSON/CSV extraction using your own Ollama, LM Studio, or OpenAI-compatible endpoint.
+- **Press-Room CMYK Preflight (No Ghostscript):** PDF/X-1a & PDF/X-4 audits, recursive Form XObject inspection, true C/M/Y/K plate separation, TAC heatmap, live ink-density eyedropper, and one-click pure-Python press fixes.
+- **CAD, Blueprints & Publishing Studio:** Native PDF ↔ DXF, calibrated blueprint takeoff with vector snapping & Excel quantity schedules, CAD layers, sheet-set tools, `.cbz` ↔ PDF, LTR/RTL multi-signature booklet imposition, and a POD spine calculator.
+- **Built-in OCR & Full Automation:** Shipped PP-OCR/ONNX engine + in-place **Check OCR** typo editor, PDF/A & PDF/UA accessibility tools, Word/Excel/PowerPoint/HTML/Markdown conversions, multi-step Recipes, Watch Folders, Smart Auto-Filing, and Local Semantic Folder Search.
+
 ## Updating
 
-Already have ZPDF installed? Open **Settings → Updates** (or click the **Update** button in the app) to update automatically on Windows, macOS, or Linux.
+Already have ZPDF installed? Open **Settings → Updates** (or click the **Update** button in the app) to update automatically on Windows, macOS, or Linux (verified against each release's SHA-256 checksum).
