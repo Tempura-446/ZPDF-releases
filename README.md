@@ -4,13 +4,13 @@ Official desktop builds and installers for **ZPDF** — a **100% offline, zero-t
 
 ## Latest Release Downloads
 
-Download the latest version from the [**Latest Release**](https://github.com/Tempura-446/ZPDF-releases/releases/latest) page (currently **`v0.76.0`**):
+Download the latest version from the [**Latest Release**](https://github.com/Tempura-446/ZPDF-releases/releases/latest) page (currently **`v0.77.0`**):
 
 | Platform | Recommended Download | Alternative / Portable | Install Notes |
 | --- | --- | --- | --- |
-| **Windows (x64)** | [`ZPDF-0.76.0-windows-standalone.zip`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.76.0/ZPDF-0.76.0-windows-standalone.zip) (no Python needed) | [`ZPDF-0.76.0-windows.zip`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.76.0/ZPDF-0.76.0-windows.zip) (source installer) | Unzip and run `ZPDF.exe` (or `Install ZPDF.cmd` for the source installer). |
-| **macOS (Apple Silicon / Intel)** | [`ZPDF-0.76.0-macos.dmg`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.76.0/ZPDF-0.76.0-macos.dmg) | [`ZPDF-0.76.0-macos.zip`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.76.0/ZPDF-0.76.0-macos.zip) | Open `.dmg`, drag **ZPDF.app** to Applications. Since the app is unsigned, if Gatekeeper warns on first launch, run:<br>`xattr -cr /Applications/ZPDF.app` |
-| **Linux (x86_64)** | [`zpdf_0.76.0_amd64.deb`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.76.0/zpdf_0.76.0_amd64.deb) (Debian / Ubuntu) | [`ZPDF-0.76.0-linux.zip`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.76.0/ZPDF-0.76.0-linux.zip) (portable archive) | Debian/Ubuntu: `sudo apt install ./zpdf_0.76.0_amd64.deb`<br>Portable: unzip and run `./ZPDF`. |
+| **Windows (x64)** | [`ZPDF-0.77.0-windows-standalone.zip`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.77.0/ZPDF-0.77.0-windows-standalone.zip) (no Python needed) | [`ZPDF-0.77.0-windows.zip`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.77.0/ZPDF-0.77.0-windows.zip) (source installer) | Unzip and run `ZPDF.exe` (or `Install ZPDF.cmd` for the source installer). |
+| **macOS (Apple Silicon / Intel)** | [`ZPDF-0.77.0-macos.dmg`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.77.0/ZPDF-0.77.0-macos.dmg) | [`ZPDF-0.77.0-macos.zip`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.77.0/ZPDF-0.77.0-macos.zip) | Open `.dmg`, drag **ZPDF.app** to Applications. Since the app is unsigned, if Gatekeeper warns on first launch, run:<br>`xattr -cr /Applications/ZPDF.app` |
+| **Linux (x86_64)** | [`zpdf_0.77.0_amd64.deb`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.77.0/zpdf_0.77.0_amd64.deb) (Debian / Ubuntu) | [`ZPDF-0.77.0-linux.zip`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.77.0/ZPDF-0.77.0-linux.zip) (portable archive) | Debian/Ubuntu: `sudo apt install ./zpdf_0.77.0_amd64.deb`<br>Portable: unzip and run `./ZPDF`. |
 
 Every download includes a matching `.sha256` checksum file on the release page.
 
