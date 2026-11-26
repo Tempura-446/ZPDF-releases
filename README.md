@@ -4,14 +4,14 @@ Official desktop builds and installers for **ZPDF** — a **100% offline, zero-t
 
 ## Latest Release Downloads
 
-Download the latest version from the [**Latest Release**](https://github.com/Tempura-446/ZPDF-releases/releases/latest) page (currently **`v0.80.1`**):
+Download the latest version from the [**Latest Release**](https://github.com/Tempura-446/ZPDF-releases/releases/latest) page (currently **`v0.84.0`**):
 
 | Platform | Recommended Download | Alternative / Portable | Install Notes |
 | --- | --- | --- | --- |
-| **Windows (x64)** | [`ZPDF-0.80.1-windows-standalone.zip`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.80.1/ZPDF-0.80.1-windows-standalone.zip) (no Python needed) | [`ZPDF-0.80.1-windows.zip`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.80.1/ZPDF-0.80.1-windows.zip) (source installer) | Unzip and run `ZPDF.exe` (or `Install ZPDF.cmd` for the source installer). |
-| **macOS (Apple Silicon / Intel)** | [`ZPDF-0.80.1-macos.dmg`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.80.1/ZPDF-0.80.1-macos.dmg) | [`ZPDF-0.80.1-macos.zip`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.80.1/ZPDF-0.80.1-macos.zip) | Open `.dmg`, drag **ZPDF.app** to Applications. Since the app is unsigned, if Gatekeeper warns on first launch, run:<br>`xattr -cr /Applications/ZPDF.app` |
-| **Linux (x86_64)** | [`zpdf_0.80.1_amd64.deb`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.80.1/zpdf_0.80.1_amd64.deb) (Debian / Ubuntu) | [`ZPDF-0.80.1-linux.zip`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.80.1/ZPDF-0.80.1-linux.zip) (portable archive) | Debian/Ubuntu: `sudo apt install ./zpdf_0.80.1_amd64.deb`<br>Portable: unzip and run `./ZPDF`. |
-| **Android (Companion App)** | [`ZPDF-0.80.1-android.apk`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.80.1/ZPDF-0.80.1-android.apk) (direct APK) | — | Install the APK on your Android phone/tablet and connect to ZPDF on your local Wi-Fi (`zpdf --lan`). |
+| **Windows (x64)** | [`ZPDF-0.84.0-windows-standalone.zip`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.84.0/ZPDF-0.84.0-windows-standalone.zip) (no Python needed) | [`ZPDF-0.84.0-windows.zip`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.84.0/ZPDF-0.84.0-windows.zip) (source installer) | Unzip and run `ZPDF.exe` (or `Install ZPDF.cmd` for the source installer). |
+| **macOS (Apple Silicon / Intel)** | [`ZPDF-0.84.0-macos.dmg`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.84.0/ZPDF-0.84.0-macos.dmg) | [`ZPDF-0.84.0-macos.zip`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.84.0/ZPDF-0.84.0-macos.zip) | Open `.dmg`, drag **ZPDF.app** to Applications. Since the app is unsigned, if Gatekeeper warns on first launch, run:<br>`xattr -cr /Applications/ZPDF.app` |
+| **Linux (x86_64)** | [`zpdf_0.84.0_amd64.deb`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.84.0/zpdf_0.84.0_amd64.deb) (Debian / Ubuntu) | [`ZPDF-0.84.0-linux.zip`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.84.0/ZPDF-0.84.0-linux.zip) (portable archive) | Debian/Ubuntu: `sudo apt install ./zpdf_0.84.0_amd64.deb`<br>Portable: unzip and run `./ZPDF`. |
+| **Android (Companion App)** | [`ZPDF-0.84.0-android.apk`](https://github.com/Tempura-446/ZPDF-releases/releases/download/v0.84.0/ZPDF-0.84.0-android.apk) (direct APK) | — | Install the APK on your Android phone/tablet and connect to ZPDF on your local Wi-Fi (`zpdf --lan`). |
 
 Every download includes a matching `.sha256` checksum file on the release page.
 
