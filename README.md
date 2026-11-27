@@ -1,6 +1,8 @@
 # ZPDF Releases
 
-Official desktop builds and installers for **ZPDF** — a **100% offline, zero-telemetry PDF studio** for **Windows**, **macOS**, and **Linux**. Read, edit, permanently redact, OCR, translate books & manga, run press-room CMYK preflight, measure CAD blueprints, and chat with PDFs using your own local AI — with no cloud uploads and no subscriptions.
+**ZPDF — The 100% Offline Document, Book & Manga Studio** *(PDF · EPUB · CBZ/CBR · CAD · Offline AI)*
+
+Official desktop builds and installers for **Windows**, **macOS**, **Linux**, and the **Android Companion App**. Read, edit, permanently redact, OCR, translate books & manga, browse your local cover-art bookshelf, run press-room CMYK preflight, measure CAD blueprints, and chat with documents using your own local AI — with zero telemetry, zero cloud uploads, and zero subscriptions.
 
 ## Latest Release Downloads
 
@@ -18,12 +20,12 @@ Every download includes a matching `.sha256` checksum file on the release page.
 ## Why ZPDF?
 
 - **100% Local & Private:** Zero telemetry, no accounts, no cloud uploads. Includes **true permanent redaction** (content-stream removal + post-write verification), AES-256 & certificate encryption, Digital ID signing (`pyHanko`), and tamper-evident audit logs.
-- **Fast Power-User Reader & Editor:** Streams 200 MB+ files smoothly, with 4 reading themes (Light, Smart Night, Warm Sepia, E-Ink), split view + interactive diff viewer, Workspace Sessions, direct text editing with paragraph reflow, interactive forms with calculations, and annotations.
-- **Offline Book, Document & Manga Translation:** Powered by commercial-safe Apache-2.0 MADLAD-400, OPUS-MT, or your local LLM — featuring vertical CJK (*tategaki*) with furigana stripping, shape-aware **Manga / Comic Speech-Bubble Mode v2**, `bilingual-pages` book mode, and a live bilingual reading pane.
-- **Local AI Document Assistant:** *Ask this PDF* with clickable `[p. N]` citations, Document/Chapter Summarizer, and structured JSON/CSV extraction using your own Ollama, LM Studio, or OpenAI-compatible endpoint.
+- **Universal Document, E-Book & Manga Reader:** Open **PDF**, **`.epub`** (with clickable chapter bookmarks), **`.cbz` / `.cbr`** comic archives, **`.dxf` / `.dwg`** drawings, and image folders directly. Features a **Visual Cover-Art Bookshelf**, **`[` / `]` chapter navigation**, **True RTL Manga Spreads** with cover-page offset, 4 reading themes (Light, Smart Night, Warm Sepia, E-Ink), split view + diff viewer, Workspace Sessions, direct text editing, fillable forms, and annotations.
+- **Offline Manga & Book Translation Studio:** Powered by commercial-safe Apache-2.0 MADLAD-400, OPUS-MT, or your local LLM — featuring the optional pure-ONNX **Manga AI Pack** (RT-DETR v2 neural bubble/borderless detector, Japanese `manga-ocr`, LaMa-Manga neural inpainting), **Live Manga Lens (`Shift+T`)** with hold-`Space` peek and an **Interactive Bubble Editor**, scanlation-grade stroked SFX, vertical CJK (*tategaki*) with furigana stripping, and live bilingual reading.
+- **Built-in PP-OCRv6 & Vision-LLM OCR:** Shipped **PP-OCRv6 Medium** ONNX engine (50 languages, ~5× faster on CPU), in-place **Check OCR** typo editor, **Settings → Offline AI Models Manager**, plus optional **Vision-LLM OCR & visual translation** (Ollama `qwen2.5vl` / `gemma3`, LM Studio, or BYOK).
+- **Local AI Document Assistant:** *Ask this PDF* with clickable `[p. N]` citations, Document/Chapter Summarizer, and structured JSON/CSV extraction using your own local or BYOK LLM.
 - **Press-Room CMYK Preflight (No Ghostscript):** PDF/X-1a & PDF/X-4 audits, recursive Form XObject inspection, true C/M/Y/K plate separation, TAC heatmap, live ink-density eyedropper, and one-click pure-Python press fixes.
-- **CAD, Blueprints & Publishing Studio:** Native PDF ↔ DXF, calibrated blueprint takeoff with vector snapping & Excel quantity schedules, CAD layers, sheet-set tools, `.cbz` ↔ PDF, LTR/RTL multi-signature booklet imposition, and a POD spine calculator.
-- **Built-in OCR & Full Automation:** Shipped PP-OCR/ONNX engine + in-place **Check OCR** typo editor, PDF/A & PDF/UA accessibility tools, Word/Excel/PowerPoint/HTML/Markdown conversions, multi-step Recipes, Watch Folders, Smart Auto-Filing, and Local Semantic Folder Search.
+- **CAD, Blueprints & Publishing Automation:** Native PDF ↔ DXF, calibrated blueprint takeoff with vector snapping & Excel quantity schedules, CAD layers, LTR/RTL multi-signature booklet imposition, POD spine calculator, PDF/A & PDF/UA accessibility, Office/HTML/Markdown conversions, multi-step Recipes, Watch Folders, Smart Auto-Filing, and Local Semantic Folder Search.
 
 ## Updating
 
